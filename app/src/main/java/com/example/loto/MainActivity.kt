@@ -14,7 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.loto.ui.theme.LotoTheme
 import com.example.loto.viewModels.LoteriaViewModels
-import com.example.loto.views.LoteriaView
+import com.example.loto.views.LoteriaView // hola
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
