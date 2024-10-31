@@ -14,7 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.loto.ui.theme.LotoTheme
 import com.example.loto.viewModels.LoteriaViewModels
-import com.example.loto.views.LoteriaView // hola
+import com.example.loto.views.LoteriaView
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,9 +27,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ){
-                    LoteriaView(viewModel = viewModel)
+                    LoteriaView(viewModels = viewModel)
                 }
-
                 }
             }
         }
